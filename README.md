@@ -25,6 +25,8 @@ OriginalTweet: This column contains the actual text of the tweet that was posted
 Sentiment: This column contains the sentiment label assigned to the tweet. This label could be positive, negative,extremely positive,extremely negative neutral, depending on the sentiment analysis algorithm used to classify the tweet.
 
 Conclusion 
+
+
 1.We applied 8 models namely, Logistic Regression with Grid Search CV, Decision Tree Classifier,Stochastic Gradient Descent , KNN, SVM,Multinomial Navies Bayes,Bernoulli Navies Bayes Classifier for both Count Vector And TF ID Vectorization techniques.
 
 2..We conclude that the machine is generating the best results for the Stochastic Gradient Descent(count vectorizer) model with an Accuracy of 80.43% followed by the Logistic Regression with Grid Search CV (TF/ID vectorizer) model with an Accuracy of 78.86%.
